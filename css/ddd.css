@@ -1,6 +1,7 @@
 html{
   background-color: #FBF6DE;
   max-width:1280px;
+  text-align: center;
 }
 .container{
   max-width:984px;
@@ -11,9 +12,11 @@ html{
 /*header*/
 header{
   max-width: 984px;
+
 }
 header img{
-  margin-top: 21px;
+  margin-top: 12px;
+  float: left;
 }
 
 .right{
@@ -111,7 +114,7 @@ header img{
 /* Navigator Style */
 .site-nav {
   max-width: 984px;
-  margin-top: 30px;
+  margin-top: 32px;
   margin-bottom: 42px;
   background-color: #F3D5D4;
   border-radius: 5px;
@@ -152,7 +155,7 @@ header img{
   display: block;
 }
 .first{
-    max-width: 984px;
+  max-width: 984px;
     margin-top: 17px;
     margin-bottom: 42px;
     border: 1px solid black;
