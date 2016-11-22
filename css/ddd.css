@@ -152,7 +152,7 @@ header img{
   display: block;
 }
 .first{
-  max-width: 984px;
+    max-width: 984px;
     margin-top: 17px;
     margin-bottom: 42px;
     border: 1px solid black;
