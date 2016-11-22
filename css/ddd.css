@@ -120,16 +120,16 @@ header img{
 .site-nav ul {
 	margin: 0;
 	padding: 0;
-  margin-left: 9px;
+  text-align: center;
 }
 
 .site-nav li {
 	list-style: none;
-	float: left;
-  display: block;
+	text-align: center;
+  display: inline-block;
 
   font-size: 50.89px;
-	
+  
 
 }
 .site-nav a {
@@ -141,7 +141,7 @@ header img{
 	display: block;
 	text-decoration:none;
 	//border: 3px solid white;
-
+  font-family:sans-serif;;
 }
 
 
