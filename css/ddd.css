@@ -1,13 +1,17 @@
 html{
   background-color: #FBF6DE;
+  max-width:1280px;
 }
 .container{
-  max-width:1280px;
+  max-width:984px;
   max-height: 2310px;
-  margin-left: 139px;
-  margin-right: 126px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*header*/
+header{
+  max-width: 984px;
+}
 header img{
   margin-top: 21px;
 }
@@ -17,9 +21,10 @@ header img{
 }
 /* Navigator Style right*/
 .site-nav2{
+  max-width: 984px;
   margin-top: 15px;
   margin-bottom: -13px;
-  float: left;
+  text-align: center;
 
 }
 .site-nav2 ul{
@@ -105,7 +110,8 @@ header img{
 
 /* Navigator Style */
 .site-nav {
-margin-top: 30px;
+  max-width: 984px;
+  margin-top: 30px;
   margin-bottom: 42px;
   background-color: #F3D5D4;
   border-radius: 5px;
@@ -146,6 +152,7 @@ margin-top: 30px;
   display: block;
 }
 .first{
+  max-width: 984px;
     margin-top: 30px;
     margin-bottom: 42px;
     border: 1px solid black;
@@ -162,6 +169,7 @@ margin-top: 30px;
   background-color: #F1D7AD;
 }
 .site-nav3{
+
   margin-top: 10px;
   float: left;
 }
@@ -217,66 +225,7 @@ margin-top: 30px;
   margin-left: 56px;
   margin-right: 18px;
 }
-/*content area*/
-.main-area{
-  width: 452px;
-  float: left;
-}
 
-.main-area h1{
-  width: 444px;
-  height: 44px;
-  margin-top: 32px;
-  margin-bottom: 17px;
-  padding: 11px 30px;
-  background-color: #889C5B;
-  font-family: Arial Black;
-  font-size: 16px;
-  box-sizing: border-box;
-  border-radius: 5px;
-  color: #EDF2C5;
-}
-
-.main-area img{
-  margin-right: 8px;
-  margin-bottom: 34px;
-}
-
-
-.sidebar{
-  width: 444px;
-  float: right;
-}
-
-.sidebar h1{
-  width: 444px;
-  height: 44px;
-  margin-top: 32px;
-  margin-bottom: 17px;
-  padding: 11px 30px;
-  background-color: #889C5B;
-  font-family: Arial Black;
-  font-size: 16px;
-  box-sizing: border-box;
-  border-radius: 5px;
-  color: #EDF2C5;
-}
-
-.all{
-  display: block;
-  width: 444px;
-  height: 140px;
-  background-color: #F5F8B9;
-  box-sizing: border-box;
-  padding: 15px;
-  padding-top: 0px;
-}
-
-.sidebar p{
-  font-family: Arial Black;
-  color: #898989;
-  font-size: 10px;
-}
 
 /*footer*/
 footer{
